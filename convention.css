@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins&family=Roboto+Condensed&family=Roboto:wght@400;500&family=The+Nautigal:wght@700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.toggle-color{
+    background-color: lightgray;
+}
+.special-package{
+    background-color:#FABE4C ;
+    /* #FFFBF0 */
+    border-radius: 20px;
+    box-shadow: 5px 7px 20px lightskyblue;
+}
+.best-marriage-card{
+    border-radius: 20px;
+}
+/* .image-details{
+    display: none;
+}
+.card:hover.image-details{
+    display:block;
+} */

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="convention.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/3f91dac031.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+<!--------------------------------------
+    nav section start here 
+---------------------------------------->
+        <section class="container nav-section  my-4">
+            <nav class="navbar navbar-expand-lg navbar-dark " >
+                <div class="container d-flex align-items-center bg-color">
+                  <a class="navbar-brand text-dark fs-2 fw-bolder" href="#">Matrimony convention Hall</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon toggle-color"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center fw-bold fs-6">
+                      <li class="nav-item">
+                        <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link text-dark" href="#">Contract</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Subscribe</a>
+                      </li>                     
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </section>
+
+<!--------------------------------------
+    carousel section start here 
+---------------------------------------->
+        <section class="Carousel-section">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>The perfect venue for your <br>
+                            next event</h3>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit .</p>
+                        <a href="https://www.google.com" target="_blank">
+                            <button type="button" class="btn bg-light text-dark fw-bold">Book Now</button>
+                        </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner-2.png" class="d-block opacity-75 w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h3>The perfect venue for your <br>
+                            next event</h3>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit .</p>
+                            <a href="https://www.google.com" target="_blank">
+                                <button type="button" class="btn bg-light text-dark fw-bold">Book Now</button>
+                            </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/banner-3.png" class="d-block w-100 opacity-75" alt="...">
+                    <div class="carousel-caption d-none d-md-block text-dark">
+                        <h3>The perfect venue for your <br>
+                            next event</h3>
+                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor <br> do amet sint. Velit officia consequat duis enim velit .</p>
+                      <a href="https://www.google.com" target="_blank">
+                        <button type="button" class="btn bg-light text-dark fw-bold">Book Now</button>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </header>
+
+    <main>
+<!--------------------------------------
+    our modal section start here 
+---------------------------------------->
+        <section class="modal-section">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-light shadow-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <span><i class="fas fa-gift"></i></span>   20% off on next booking
+            </button>
+            
+            <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"><span><i class="fas fa-gift"></i></span>   20% off on next booking</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+<!--------------------------------------
+    our package section start here 
+---------------------------------------->
+    <section class="container my-5 ">
+        <h2 class="text-center py-5 my-5">Our Package</h2>
+        <div class="packages">
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card-body">
+                        <h4 class="price">$300</h4>
+                        <h5 class="event-type">Business Fair</h5>
+                        <p class="card-text">With supporting text below as a natural </p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <button type="button" class="btn btn-light text-primary rounded-pill px-5 fs-6">Choose plan</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card-body">
+                        <h4 class="price">$300</h4>
+                        <h5 class="event-type">Business Fair</h5>
+                        <p class="card-text">With supporting text below as a natural </p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <button type="button" class="btn btn-light text-primary rounded-pill px-5 fs-6">Choose plan</button>
+                    </div>
+                </div>
+  
+
+                  <div class="col-sm-3">
+                    <div class="card-body special-package p-5  position-relative ">
+                        <span class="position-absolute top-0 end-0  translate-middle badge rounded-pill bg-danger p-2">Hot</span>
+                        <div>
+                        <h4 class="price">$300</h4>
+                        <h5 class="event-type">Business Fair</h5>
+                        <p class="card-text">With supporting text below as a natural </p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                        <button type="button" class="btn btn-light text-primary rounded-pill px-5 fs-6">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+  
+
+                  <div class="col-sm-3">
+                      <div class="card-body">
+                          <h4 class="price">$300</h4>
+                          <h5 class="event-type">Business Fair</h5>
+                          <p class="card-text">With supporting text below as a natural </p>
+                          <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                          <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                          <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                          <p><span class="pe-1"><i class="far fa-check-circle"></i></span>limited space access</p>
+                          <button type="button" class="btn btn-light text-primary rounded-pill px-5 fs-6">Choose plan</button>
+                      </div>
+                  </div>
+  
+              </div>
+        </div>
+    </section>
+<!--------------------------------------
+    best marriage details section start here 
+---------------------------------------->
+    <section class="optional-section-2 container">
+        <h2 class="text-center my-5 py-5">Best Marriage History</h2>
+        <div class="row">
+              <div class="col-sm-4">
+                <div class="card  text-white fw-bolder fs-5 best-marriage-card">
+                    <img src="images/marrige-1.jpg" class="card-img opacity-75" alt="...">
+                    <div class="card-img-overlay d-flex  align-items-center ">
+                      <div class="image-details ">
+                        <h5 class="card-title text-center">Card title</h5>
+                        <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="card  text-white fw-bolder fs-5 best-marriage-card">
+                    <img src="images/marrige-1.jpg" class="card-img opacity-75" alt="...">
+                    <div class="card-img-overlay d-flex  align-items-center ">
+                      <div class="image-details ">
+                        <h5 class="card-title text-center">Card title</h5>
+                        <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="col-sm-4">
+                <div class="card  text-white fw-bolder fs-5 best-marriage-card">
+                    <img src="images/marrige-1.jpg" class="card-img opacity-75" alt="...">
+                    <div class="card-img-overlay d-flex  align-items-center ">
+                      <div class="image-details ">
+                        <h5 class="card-title text-center">Card title</h5>
+                        <p class="card-text text-center">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+
+<!--------------------------------------
+    question answer section start here 
+---------------------------------------->
+    <section class="ask-question container my-5 ">
+        <h2 class="text-center my-5 py-5">Frequently Asked Question</h2>
+        <div class="question-answer d-flex justify-content-around">
+            <div class="left">
+                <h4>ekhane dropdeown question and answer  hobe</h4>
+            </div>
+            <div class="right">
+                <img src="images/people.png" alt="">
+            </div>
+        </div>
+    </section>
+    </main>
+
+
+<!--------------------------------------
+    footer section start here 
+---------------------------------------->
+<footer class="bg-dark mt-5 py-5">
+    <section class="container text-light my-3 d-flex justify-content-between">
+        <div class="left-footer d-flex align-items-center">
+            <p>Copyright &copy; 2020 Niloy dey. All rights reserved</p>
+        </div>
+        <div class="right-footer">
+            <h4>Get The App</h4><br>
+           <a target="_blank" href="https://www.apple.com/services/"> <img src="images/app-store.png" alt=""></a><br><br>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.google.android.apps.tachyon&hl=en&gl=US"><img src="images/google-play.png" alt=""></a>
+        </div>
+    </section>
+</footer>
+
+
+
+
+
+
+
+
+    <!-- bootstrap script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
