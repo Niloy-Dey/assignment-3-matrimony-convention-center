@@ -10,9 +10,15 @@ body{
 .toggle-color{
     background-color: lightgray;
 }
+.contract{
+    background-color: #FFFBF0 ;
+    border-bottom: 40px solid lightgoldenrodyellow;
+}
+.special-button{
+    background-color: #6ec7f04d;
+}
 .special-package{
     background-color:#FABE4C ;
-    /* #FFFBF0 */
     border-radius: 20px;
     box-shadow: 5px 7px 20px lightskyblue;
 }
